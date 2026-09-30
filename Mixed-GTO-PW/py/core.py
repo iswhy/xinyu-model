@@ -12,7 +12,7 @@ env = mol._env
 nao = mol.nao_cart()
 ao_loc = mol.ao_loc_nr(cart=True)
 ks = [np.array([1.0, 0.0, 0.0], dtype=np.float64)]
-c2s = mol.cart2sph_coeff()
+c2s = mol.cart2sph_coeff()        #WARNING: use normalized=None argument
 
 print("atm : \n", atm)
 print("natm : ", natm)

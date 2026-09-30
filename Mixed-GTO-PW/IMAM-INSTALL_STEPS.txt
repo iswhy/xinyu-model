@@ -1,0 +1,7 @@
+
+
+1) Make sure pybind11 is installed.
+2) Change directory to /home/imam77/Programs/xinyu/Model/Mixed-GTO-PW.
+3) mkdir build-imam  && cd build-imam.
+4) cmake ..
+5) make -j 10
